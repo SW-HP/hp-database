@@ -1,0 +1,17 @@
+SQLAlchemy
+openai
+uvicorn
+pydantic
+pydantic[email]
+fastapi
+passlib
+requests
+PyJWT
+python-jose[cryptography]
+python-multipart
+python-dotenv
+passlib[bcrypt]
+python-jose
+cryptography
+Alembric
+mysql-connector-python
