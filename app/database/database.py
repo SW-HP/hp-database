@@ -12,11 +12,11 @@ import os
 
 ## DB 연결 ##
 load_dotenv(override=True)
-user = os.getenv("DB_USER")     # "first"
-passwd = os.getenv("DB_PASSWORD") # "Qwer1234!"
-host = os.getenv("DB_HOST")     # "127.0.0.1"
-port = os.getenv("DB_PORT")     # "3306"
-db = os.getenv("DB_NAME")       # "hptest"
+user = os.getenv("DB_USER")    
+passwd = os.getenv("DB_PASSWORD") 
+host = os.getenv("DB_HOST")     
+port = os.getenv("DB_PORT")     
+db = os.getenv("DB_NAME")      
 
 
 DB_URL = f'mysql+pymysql://{user}:{passwd}@{host}:{port}/{db}?charset=utf8'
